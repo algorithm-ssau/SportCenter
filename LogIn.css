@@ -48,5 +48,17 @@ html {
     color:rgb(255, 255, 255);
     margin-top:20px;
   }
+
+  .registration-cssave .registration {
+    text-align: center;
+    border-radius:30px;
+    padding:10px 20px;
+    font-size:15px;
+    font-weight:bold;
+    background-color:#0b7d42;
+    border:none;
+    color:rgb(255, 255, 255);
+    margin-top:20px;
+  }
   
 
