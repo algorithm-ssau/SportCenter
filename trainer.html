@@ -2,51 +2,155 @@
 <html>
     <head>
         <title> Тренеры </title>
-        <style type="text/css">
-        figure {
-            display: inline-block;
-            border: 1px dotted gray;
-            margin: 20px; /* adjust as needed */
-        }
-        figure img {
-            vertical-align: top;
-        }
-        figure figcaption {
-            border: 1px dotted blue;
-            text-align: center;
-        }
+            <style>
+                .container{
+                    position: relative;
+                    display: inline-block;
+                    justify-content: top;
+                    align-items: top;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                }
+                .container .box{
+                    position: relative;
+                    left: 30px;
+                    width: 16rem;
+                    height: 16rem;
+                    margin: 3rem;
+                }
+                .container .box:hover .imgBox {
+                    transform: translate(-1.5rem,-1.5rem);
+                }
+                .container .box:hover .content{
+                    transform: translate(6rem,15.5rem);
+                }
+                .imgBox{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                    transition: all 0.5s ease-in-out;
+                }
+                .imgBox img{
+                    width: 16rem;
+                    height: 16rem;
+                    object-fit: cover;
+                    resize: both;
+                }
             </style>
     </head>
     <body bgcolor="#768BA3">
         <h1>
-                    <div style="font-size: 32px; text-align: center; font-family: century gothic; ">Тренеры</div>
+                    <div style="font-size: 32px; text-align: top; font-family: century gothic; ">Тренеры</div>
         </h1>
         <div style="font-size: 20px; font-family: century gothic; ">Описание</div>
         <br>
-        <figure>
-            <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" width="320" height="210" > <br>
-            <figcaption>Описание
-                <br>Тренера
-                <br>Будет</figcaption>
-        </figure>
-        <figure>
-            <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" width="320" height="210" > <br>
-            <figcaption>Описание
-                <br>Тренера
-                <br>Будет</figcaption>
-        </figure>
-        <figure>
-            <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" width="320" height="210" > <br>
-            <figcaption>Описание
-                <br>Тренера
-                <br>Будет</figcaption>
-        </figure>
-        <figure>
-            <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" width="320" height="210" > <br>
-            <figcaption>Описание
-                <br>Тренера
-                <br>Будет</figcaption>
-        </figure>
+        
+
+        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>
+                        <span style="font-size:medium;" >Тренер </span> <br/>
+                        <span style="font-size:small;"> Его описание </span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>
+                        <span style="font-size:medium;">Тренер </span> <br/>
+                        <span style="font-size:small;"> Его описание </span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>
+                        <span style="font-size:medium;">Тренер </span> <br/>
+                        <span style="font-size:small;"> Его описание </span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>
+                        <span style="font-size:medium;">Тренер </span> <br/>
+                        <span style="font-size:small;"> Его описание </span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>
+                        <span style="font-size:medium;">Тренер </span> <br/>
+                        <span style="font-size:small;"> Его описание </span>
+                    </h2>
+                </div>
+            </div>
+        </div>        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>
+                        <span style="font-size:medium;">Тренер </span> <br/>
+                        <span style="font-size:small;"> Его описание </span>
+                    </h2>
+                </div>
+            </div>
+        </div>        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>
+                        <span style="font-size:medium;">Тренер </span> <br/>
+                        <span style="font-size:small;"> Его описание </span>
+                    </h2>
+                </div>
+            </div>
+        </div>        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="C:\Users\79292\Desktop\Untitled Export/IMG_0672.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>
+                        <span style="font-size:medium;">Тренер </span> <br/>
+                        <span style="font-size:small;"> Его описание </span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
         
     </body>
 </html>
