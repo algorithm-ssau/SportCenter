@@ -3,6 +3,7 @@
 <head>
     <title>Фитнес-программы и направления</title>
     <style>
+        
         .p1{
             margin-top: 80px;
             margin-left: 50px;
@@ -17,18 +18,21 @@
             margin-left: 20px;
             margin-right: 20px;
         }
+        .p3{
+            text-align: center;
+        }
         .imgblock {
             position: relative;
             display: inline-block;
-            
+            margin-top: 70px;
+            margin-left: 50px;
         }
-
         .imgblock img {
-            height: 227px;
-            width: 330px;
+            height: 275px;
+            width: 400px;
             margin-top: 50px;
-            margin-left: 20px;
-            margin-right: 20px;
+            /*margin-left: 20px;
+            margin-right: 20px;*/
             -webkit-filter:brightness(100%) ;
         }
         .imgblock img:hover{
@@ -51,7 +55,59 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: bold;
         }
-        
+
+        /* Кнопка выпадающего списка */
+        .dropbtn {
+            background-color: #444544;
+            color: white;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 16px;
+            border: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 40px;
+        }
+
+        /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Выпадающее содержимое (скрыто по умолчанию) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 260px;
+            
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Ссылки внутри выпадающего списка */
+        .dropdown-content a {
+            color: black;
+            /*padding: 12px 16px;*/
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: block;
+        }
+
+        /* Изменение цвета выпадающих ссылок при наведении курсора */
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        /* Показать выпадающее меню при наведении курсора */
+        .dropdown:hover .dropdown-content {display: block;}
+
+        /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+        .dropdown:hover .dropbtn {background-color: #282a28;}
         
         
     </style>
@@ -60,35 +116,52 @@
 <body>
     <p class="p1">ФИТНЕС-ПРОГРАММЫ И НАПРАВЛЕНИЯ</p>
 
-    
-    
-    <div class="imgblock">
-        <a href="direct1.html">
-        <img src="D:\univer\III kurs\II_sem\image\img1.jpeg" alt="Здесь должна быть картинка">
-        <name>ГРУППОВЫЕ ПРОГРАММЫ</name>
-    </a>
+    <div class="dropdown">
+        <button class="dropbtn">Услуги</button>
+        <div class="dropdown-content">
+          <a href="direct1.html">Групповые программы</a>
+          <a href="#">Тренажерный зал</a>
+          <a href="#">Бассейн с морской водой</a>
+          <a href="#">Йога</a>
+          <a href="#">Стренчинг</a>
+          <a href="#">Персональные тренировки</a>
+        </div>
     </div>
+      
 
-    <div class="imgblock">
-        <img src="D:\univer\III kurs\II_sem\image\img2.jpg" alt="Здесь должна быть картинка">
-        <name>ТРЕНАЖЕРНЫЙ ЗАЛ</name>
-    </div>
 
-    <div class="imgblock">
-        <img src="D:\univer\III kurs\II_sem\image\img3.jpg" alt="Здесь должна быть картинка">
-        <name>БАССЕЙН С МОРСКОЙ ВОДОЙ</name>
-    </div>
-    
-    <div class="imgblock">
-        <img src="D:\univer\III kurs\II_sem\image\img4.jpg" alt="Здесь должна быть картинка">
-        <name>ЙОГА</name>
-    </div>
+    <div class="p3">
+        <div class="imgblock">
+            <a href="direct1.html">
+                <img src="D:\univer\III kurs\II_sem\image\img1.jpeg" alt="Здесь должна быть картинка">
+                <name>ГРУППОВЫЕ ПРОГРАММЫ</name>
+            </a>
+        </div>
+        
+        <div class="imgblock">
+            <img src="D:\univer\III kurs\II_sem\image\img2.jpg" alt="Здесь должна быть картинка">
+            <name>ТРЕНАЖЕРНЫЙ ЗАЛ</name>
+        </div>
 
-    <div class="imgblock">
-        <img src="D:\univer\III kurs\II_sem\image\img5.jpg" alt="Здесь должна быть картинка">
-        <name>СТРЕТЧИНГ</name>
+        <div class="imgblock">
+            <img src="D:\univer\III kurs\II_sem\image\img3.jpg" alt="Здесь должна быть картинка">
+            <name>БАССЕЙН С МОРСКОЙ ВОДОЙ</name>
+        </div>
+    
+        <div class="imgblock">
+            <img src="D:\univer\III kurs\II_sem\image\img4.jpg" alt="Здесь должна быть картинка">
+            <name>ЙОГА</name>
+        </div>
+
+        <div class="imgblock">
+            <img src="D:\univer\III kurs\II_sem\image\img5.jpg" alt="Здесь должна быть картинка">
+            <name>СТРЕТЧИНГ</name>
+        </div>
+
+        <div class="imgblock">
+            <img src="D:\univer\III kurs\II_sem\image\img6.jpg" alt="Здесь должна быть картинка">
+            <name>ПЕРСОНАЛЬНЫЕ ТРЕНИРОВКИ</name>
+        </div>
     </div>
-    
-    
 </body>
 </html>
