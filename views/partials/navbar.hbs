@@ -1,0 +1,38 @@
+<nav class="blue darken-4">
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo">Спортивная студия</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+      {{#if isIndex}}
+      <li class="active"><a href="/">О нас</a></li>
+      {{else}}
+      <li><a href="/">О нас</a></li>
+      {{/if}}
+
+
+      {{#if isTrainers}}
+      <li class="active"><a href="/trainers">Тренера</a></li>
+      {{else}}
+      <li><a href="/trainers">Тренера</a></li>
+      {{/if}}
+
+      {{#if isCosts}}
+      <li class="active"><a href="/costs">Прайс</a></li>
+      {{else}}
+      <li><a href="/costs">Прайс</a></li>
+      {{/if}}
+
+    {{#if isNapr}}
+      <li class="active"><a href="/napr">Направление</a></li>
+      {{else}}
+      <li><a href="/napr">Направление</a></li>
+      {{/if}}
+
+      {{#if isCreate}}
+      <li class="active"><a href="/create">Заказать звонок</a></li>
+      {{else}}
+      <li><a href="/create">Заказать звонок</a></li>
+      {{/if}}
+    </ul>
+  </div>
+</nav>
