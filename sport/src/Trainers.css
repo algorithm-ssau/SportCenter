@@ -20,14 +20,14 @@
   position: relative;
   left: 30px;
   width: 16rem;
-  height: 16rem;
+  height: 15rem;
   margin: 3rem;
 }
 .container .box:hover .imgBox {
   transform: translate(-1.5rem,-1.5rem);
 }
 .container .box:hover .content{
-  transform: translate(6rem,15.5rem);
+  transform: translate(3rem,12rem);
 }
 .imgBox{
   position: absolute;
