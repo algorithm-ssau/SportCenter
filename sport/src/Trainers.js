@@ -1,10 +1,10 @@
 import photo from './photos/IMG_0251.jpg';
-import './App.css';
+import './Trainers.css';
 
-function App() { 
+function Trainers() { 
   return ( 
-    <div className="App"> 
-      <header className="App-header"> 
+    <div className="Trainers"> 
+      <header className="Trainers-header"> 
       <br/>
       <div style={{ textAlign: "center",fontFamily: "Montserrat", fontWeight: "bold"}}>Наши Тренеры</div>
       <br/>
@@ -66,4 +66,4 @@ function App() {
   ); 
 }
 
-export default App;
+export default Trainers;
