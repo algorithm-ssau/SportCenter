@@ -1,14 +1,16 @@
 import photo from './photos/IMG_0251.jpg';
 import './Trainers.css';
 
+
 function Trainers() { 
   return ( 
     <div className="Trainers"> 
       <header className="Trainers-header"> 
       <br/>
-      <div style={{ textAlign: "center",fontFamily: "Gabriola", fontWeight: "bold",fontSize: "60px"}}>Наши Тренеры</div>
+      <div className='Trainers-head'>
+              <div style={{ textAlign: "center",fontFamily: "Garamond", fontWeight: "bold",fontSize: "60px"}}>Наши Тренеры</div>
+      </div>
       <br/>
-
         <div className="container">
           <div className="box">
             <div className="imgBox">
