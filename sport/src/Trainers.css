@@ -4,6 +4,7 @@
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: linear-gradient(#CB2D6F,#14a098,#0F292F);
 }
 
 .container{
