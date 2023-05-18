@@ -1,3 +1,4 @@
+
 .Trainers-header { 
   background-color: #282c34; 
   min-height: 100vh; 
@@ -32,7 +33,7 @@
   overflow: hidden; /* чтобы скрыть элементы, выходящие за границы блока */
 } 
 .container .box:hover .imgBox { 
-  transform: translate(-1.5rem,-1.5rem); 
+  transform: translate(0rem,0rem)scale(1.1); 
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); 
 } 
 .container .box:hover .content{ 
