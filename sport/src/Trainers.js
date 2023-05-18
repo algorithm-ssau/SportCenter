@@ -17,7 +17,7 @@ function Trainers() {
             <div className="content">
               <h2>
                 <span style={{fontSize: "medium"}}>Тренер </span> <br/>
-                <span style={{fontSize: "small"}}> Его описание </span>
+                <div style={{fontSize: "small"}}>  Его описание</div>
               </h2>
             </div>
           </div>
@@ -30,7 +30,7 @@ function Trainers() {
             <div className="content">
               <h2>
                 <span style={{fontSize: "medium"}}>Тренер </span> <br/>
-                <span style={{fontSize: "small"}}> Его описание </span>
+                <div style={{fontSize: "small"}}>  Его описание</div>
               </h2>
             </div>
           </div>
@@ -43,7 +43,7 @@ function Trainers() {
             <div className="content">
               <h2>
                 <span style={{fontSize: "medium"}}>Тренер </span> <br/>
-                <span style={{fontSize: "small"}}> Его описание </span>
+                <div style={{fontSize: "small"}}>  Его описание</div>
               </h2>
             </div>
           </div>
@@ -56,7 +56,7 @@ function Trainers() {
             <div className="content">
               <h2>
                 <span style={{fontSize: "medium"}}>Тренер </span> <br/>
-                <span style={{fontSize: "small"}}> Его описание </span>
+                <div style={{fontSize: "small"}}>  Его описание</div>
               </h2>
             </div>
           </div>
@@ -69,7 +69,7 @@ function Trainers() {
             <div className="content">
               <h2>
                 <span style={{fontSize: "medium"}}>Тренер </span> <br/>
-                <span style={{fontSize: "small"}}> Его описание </span>
+                <div style={{fontSize: "small"}}>  Его описание</div>
               </h2>
             </div>
           </div>
@@ -82,7 +82,7 @@ function Trainers() {
             <div className="content">
               <h2>
                 <span style={{fontSize: "medium"}}>Тренер </span> <br/>
-                <span style={{fontSize: "small"}}> Его описание </span>
+                <div style={{fontSize: "small"}}>  Его описание</div>
               </h2>
             </div>
           </div>
@@ -95,7 +95,7 @@ function Trainers() {
             <div className="content">
               <h2>
                 <span style={{fontSize: "medium"}}>Тренер </span> <br/>
-                <span style={{fontSize: "small"}}> Его описание </span>
+                <div style={{fontSize: "small"}}>  Его описание</div>
               </h2>
             </div>
           </div>
@@ -108,7 +108,7 @@ function Trainers() {
             <div className="content">
               <h2>
                 <span style={{fontSize: "medium"}}>Тренер </span> <br/>
-                <span style={{fontSize: "small"}}> Его описание </span>
+                <div style={{fontSize: "small"}}>  Его описание</div>
               </h2>
             </div>
           </div>
