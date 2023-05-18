@@ -1,9 +1,10 @@
+
 .Trainers-header {
   background-color: #282c34;
   min-height: 100vh;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #CCCCCC;
   background-image: linear-gradient(#CB2D6F,#14a098,#0F292F);
 }
 
@@ -16,19 +17,23 @@
   flex-direction: row;
   margin-top: 20px;
   margin-bottom: 20px;
+  
 }
 .container .box{
   position: relative;
-  left: 30px;
-  width: 16rem;
-  height: 15rem;
-  margin: 3rem;
+  left: 14rem;
+  width: 18rem;
+  height: 16rem;
+  margin: 8rem;
+  
 }
 .container .box:hover .imgBox {
-  transform: translate(-1.5rem,-1.5rem);
+  transform: translate(-1rem,-1rem);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
 }
 .container .box:hover .content{
-  transform: translate(3rem,12rem);
+  transform: translate(3rem,15rem);
+  box-shadow: 5px 5px 20px rgba(172, 34, 175, 0.436);
 }
 .imgBox{
   position: absolute;
@@ -36,12 +41,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 2;
+  z-index: 5;
   transition: all 0.5s ease-in-out;
+  
 }
 .imgBox img{
-  width: 16rem;
-  height: 16rem;
+  width: 18rem;
+  height: 18rem;
   object-fit: cover;
   resize: both;
 }
