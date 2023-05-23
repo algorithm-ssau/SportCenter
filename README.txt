@@ -4,6 +4,7 @@
   3)npm install react-bootstrap
   4)cd .\my-app\
 А также установить Node.
+В командной строке выполните команду pip install pymongo.
 Для запуска проекта используется npm start 
 Проект запускается на http://localhost:3000/
 mongodb+srv://admin:<password>@cluster0.il5zpnc.mongodb.net/test - ссылка на подключение к базе данных
