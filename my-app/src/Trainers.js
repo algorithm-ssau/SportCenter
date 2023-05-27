@@ -35,7 +35,7 @@ function Trainers() {
         <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={tr5} className="imgBox" alt="" /> 
+            <img src={tr7} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -63,7 +63,7 @@ function Trainers() {
         <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="" /> 
+            <img src={tr5} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -77,7 +77,7 @@ function Trainers() {
         <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="" /> 
+            <img src={tr4} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -91,7 +91,7 @@ function Trainers() {
         <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="" /> 
+            <img src={tr8} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -105,7 +105,7 @@ function Trainers() {
         <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="" /> 
+            <img src={tr3} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -119,7 +119,7 @@ function Trainers() {
         <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="" /> 
+            <img src={tr6} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
