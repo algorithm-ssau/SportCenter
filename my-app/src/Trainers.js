@@ -1,7 +1,6 @@
 import photo from './photos/IMG_0251.jpg';
 import './Trainers.css';
 
-
 function Trainers() { 
   return ( 
     <div className="Trainers"> 
@@ -12,7 +11,7 @@ function Trainers() {
               <a href='direct'> </a>
       </div>
       <br/>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
             <img src={photo} className="imgBox" alt="logo" /> 
@@ -26,7 +25,7 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
             <img src={photo} className="imgBox" alt="logo" /> 
@@ -40,7 +39,7 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
             <img src={photo} className="imgBox" alt="logo" /> 
@@ -54,7 +53,7 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
             <img src={photo} className="imgBox" alt="logo" /> 
@@ -68,7 +67,7 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
             <img src={photo} className="imgBox" alt="logo" /> 
@@ -82,7 +81,7 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
             <img src={photo} className="imgBox" alt="logo" /> 
@@ -96,7 +95,7 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
             <img src={photo} className="imgBox" alt="logo" /> 
@@ -110,7 +109,7 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
             <img src={photo} className="imgBox" alt="logo" /> 
@@ -131,3 +130,4 @@ function Trainers() {
 }
 
 export default Trainers;
+

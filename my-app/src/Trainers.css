@@ -9,7 +9,7 @@
    
 } 
 
-.container{ 
+.container1{ 
   left: 14rem; 
   position: relative; 
   display: inline-block; 
@@ -23,7 +23,7 @@
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* добавлена тень */
    
 } 
-.container .box{ 
+.container1 .box{ 
   position: relative; 
 
   width: 18rem; 
@@ -32,11 +32,11 @@
   border-radius: 20px;
   overflow: hidden; /* чтобы скрыть элементы, выходящие за границы блока */
 } 
-.container .box:hover .imgBox { 
+.container1 .box:hover .imgBox { 
   transform: translate(0rem,0rem)scale(1.1); 
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); 
 } 
-.container .box:hover .content{ 
+.container1 .box:hover .content{ 
   transform: translate(-2rem,18rem); 
   box-shadow: 5px 5px 20px rgb(0, 0, 0); 
 } 
