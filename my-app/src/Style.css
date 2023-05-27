@@ -24,7 +24,6 @@
   font-weight: bold;
   text-decoration: none;
   margin-right: 30px;
-
 }
 
 .nav-link:hover {
@@ -74,8 +73,8 @@
   border-color: #333;
 }
 .footer {
-  color: rgb(0, 0, 0);
-  background-color: #097e78;
+  color: rgb(253, 253, 253);
+  background-color: #000000;
   position: fixed;
   bottom: 0;
   width: 100%;
