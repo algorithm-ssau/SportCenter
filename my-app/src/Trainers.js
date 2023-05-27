@@ -112,7 +112,7 @@ function Trainers() {
         <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="logo" /> 
+            <img src={photo} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
