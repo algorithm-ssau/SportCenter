@@ -4,7 +4,7 @@ import photo from './photos/tr3.jpg';
 import photo from './photos/tr4.jpg';
 import photo from './photos/tr5.jpg';
 import photo from './photos/tr6.jpg';
-import photo from './photos/tr1.jpg';
+import photo from './photos/tr7.jpg';
 import photo from './photos/tr1.jpg';
 import './Trainers.css';
 
