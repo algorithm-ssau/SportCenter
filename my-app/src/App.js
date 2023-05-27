@@ -66,8 +66,8 @@ function App() {
       </Navbar>
         
       <Navbar className="footer" bg="dark" variant="dark" fixed="bottom">
-      <Navbar.Text style={{ display: 'block' }}>Адрес студии: Несуществующий переулок, дом 3 строение 5, офис 309</Navbar.Text>
-      <Navbar.Text style={{ display: 'block' }}>Сайт разработан студентами группы 6314 для задания по предмету практикум ЭВМ</Navbar.Text>
+      <Navbar.Text style={{ display: 'block',fontFamily: "Garamond",fontSize: "15px" }}>Адрес студии: Несуществующий переулок, дом 3 строение 5, офис 309</Navbar.Text>
+      <Navbar.Text style={{ display: 'block',fontFamily: "Garamond",fontSize: "15px" }}>Сайт разработан студентами группы 6314 для задания по предмету практикум ЭВМ</Navbar.Text>
 </Navbar>
 
       
