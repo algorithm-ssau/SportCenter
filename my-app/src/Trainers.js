@@ -1,4 +1,4 @@
-import photo from './photos/IMG_0251.jpg';
+import photo from './photos/tr1.jpg';
 import './Trainers.css';
 
 function Trainers() { 
