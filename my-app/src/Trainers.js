@@ -1,6 +1,6 @@
 import photo from './photos/tr1.jpg';
 import photo from './photos/tr2.jpg';
-import photo from './photos/tr1.jpg';
+import photo from './photos/tr3.jpg';
 import photo from './photos/tr1.jpg';
 import photo from './photos/tr1.jpg';
 import photo from './photos/tr1.jpg';
