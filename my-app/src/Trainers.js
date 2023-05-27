@@ -5,7 +5,7 @@ import photo from './photos/tr4.jpg';
 import photo from './photos/tr5.jpg';
 import photo from './photos/tr6.jpg';
 import photo from './photos/tr7.jpg';
-import photo from './photos/tr1.jpg';
+import photo from './photos/tr8.jpg';
 import './Trainers.css';
 
 function Trainers() { 
