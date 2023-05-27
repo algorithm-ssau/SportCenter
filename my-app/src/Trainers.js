@@ -1,4 +1,5 @@
 import photo from './photos/tr1.jpg';
+import photo from './photos/tr1.jpg';
 import './Trainers.css';
 
 function Trainers() { 
