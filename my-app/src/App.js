@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './CallPage';
 import Me from './me';
 import './Style.css';
+import Napravlenie1 from './napravlenie1';
 
 function App() {
 
@@ -72,11 +73,13 @@ function App() {
       
         <Routes>
           {/* ... */}
+
           <Route path="/trainers" element={<Trainers />} />
           <Route path="/prices" element={<PricesPage />} />
           <Route path="/categ" element={<Categ />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/me" element={<Me />} />
+          <Route path="/napravlenie1" element={<Napravlenie1 />} />
           {/* ... */}
         </Routes>
 
