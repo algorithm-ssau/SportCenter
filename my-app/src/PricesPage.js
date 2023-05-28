@@ -6,6 +6,7 @@ import card4 from './photos/card4.jpg';
 import card5 from './photos/card5.jpg';
 import card6 from './photos/card6.jpg';
 import './Trainers.css';
+import './PricesPage.css';
 
 function PricesPage() { 
   return ( 
@@ -17,7 +18,7 @@ function PricesPage() {
               <a href='direct'> </a>
       </div>
       <br/>
-        <div className="container1">
+        <div className="cont">
           <div className="box">
             <div className="imgBox">
             <img src={card1} className="imgBox" alt="" /> 
