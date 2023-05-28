@@ -13,6 +13,8 @@ import Napravlenie1 from './napravlenie1';
 import Direct2 from './Direct2';
 import Direct3 from './Direct3';
 import Direct4 from './Direct4';
+import Direct5 from './Direct5';
+import Direct6 from './Direct6';
 
 
 function App() {
@@ -87,6 +89,8 @@ function App() {
           <Route path="/Direct2" element={<Direct2/>}/>
           <Route path="/Direct3" element={<Direct3/>}/>
           <Route path="/Direct4" element={<Direct4/>}/>
+          <Route path="/Direct5" element={<Direct5/>}/>
+          <Route path="/Direct6" element={<Direct6/>}/>
           {/* ... */}
         </Routes>
 

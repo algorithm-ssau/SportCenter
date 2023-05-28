@@ -23,7 +23,7 @@
 .imgblock {
 	position: relative;
 	display: inline-block;
-	margin-top: 70px;
+	margin-top: 0px;
 	margin-left: 50px;
 	align-items: top;
 }
@@ -76,7 +76,7 @@
 	/*font-size: 1.25em;*/
 	font-size: 25px;
 	font-family: Garamond;
-	font-style: normal;
+	font-style:initial;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
