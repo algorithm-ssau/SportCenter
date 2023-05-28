@@ -1,4 +1,4 @@
-содержание index.js import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import App from '.src/App';
 
