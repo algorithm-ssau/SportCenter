@@ -62,11 +62,11 @@ function Categ() {
                 <div className="imgblock">
                 <div className="hover-text-one">
                     <figure className="effect-text-two">
-                        <img src={photo3} alt=""/>
+                        <Link to="/Direct3"><img src={photo3} alt=""/>
                         <figcaption>
                             <h3>Тренажерный <span>зал</span></h3>
                             <p>Тренажерный зал находится на двух этажах, огромный выбор блочных и нагружаемых тренажеров на все группы мышц, зона свободных весов, кардио зона</p>
-                        </figcaption>
+                        </figcaption></Link>
                     </figure>
                 </div>
                 </div>
