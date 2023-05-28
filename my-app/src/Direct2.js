@@ -53,16 +53,16 @@ function Direct2(){
                     </div>
 
                     <div className="box9">
-                            <div className="rectangle2 text">
-                                <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",paddingLeft:"40px",paddingTop:"40px",paddingRight:"40px"}}>МОТИВАЦИЯ И ИНТЕРЕС</div>
-                                <br></br>
-                                <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",paddingLeft:"40px",paddingBottom:"40px",paddingRight:"40px"}}>Фитнес-тренер – это человек, который умеет побеждать.
+                        <div className="rectangle2 text">
+                            <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",paddingLeft:"40px",paddingTop:"40px",paddingRight:"40px"}}>МОТИВАЦИЯ И ИНТЕРЕС</div>
+                            <br></br>
+                            <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",paddingLeft:"40px",paddingBottom:"40px",paddingRight:"40px"}}>Фитнес-тренер – это человек, который умеет побеждать.
                                 Он уже прошел все этапы, справился с самыми распространенными проблемами, – болью в мышцах, эффектом плато, падением
                                 мотивации и т.д. – поэтому он как никто другой, сможет правильно Вас настроить и подбодрить, когда Вам покажется, что
                                 сил не осталось. Благодаря постоянному мониторингу тенденций отрасли, наставник всегда в курсе
                                 инновационных тренировок. Это позволяет разнообразить занятия и делать их более эффективными.
-                                </div>
                             </div>
+                        </div>
                     </div>
 
 
