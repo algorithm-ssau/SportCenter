@@ -88,7 +88,7 @@ function Categ() {
                     <figure className="effect-text-two">
                         <Link to="/Direct5"><img src={photo5} alt=""/>
                         <figcaption>
-                            <h3>Ой<span>га</span></h3>
+                            <h3>Йо<span>га</span></h3>
                             <p>Позволяет бороться со стрессовыми состояниями, повышает гибкость позвоночника, учит управлять дыханием, способствует оздоровлению и омоложению организма</p>
                         </figcaption></Link>
                     </figure>
