@@ -21,13 +21,13 @@
     transform: scale(1.05);
   }
   .contents:hover {
-    transform: scale(1.15);
+    transform: scale(1.17);
   }
   .imgBoxes2:hover {
     transform: scale(1.05);
   }
   .contents2:hover {
-    transform: scale(1.15);
+    transform: scale(1.17);
   }
   
   .contents {
