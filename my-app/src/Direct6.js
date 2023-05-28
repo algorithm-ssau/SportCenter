@@ -15,7 +15,7 @@ function Direct6(){
                 <div className="Direct">
                     <br></br>
                     
-                    <div className="box1">
+                    <div className="boxs1">
                         <div style={{  fontFamily: "Garamond", fontWeight: "bold",fontSize: "60px"}}>Стретчинг</div>
                     </div>
                     
