@@ -107,7 +107,7 @@
   .studio-description__title {
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   margin-left: 100px;
   color: #57e5ea;
   }
@@ -117,16 +117,19 @@
   line-height: 1.5;
   margin-top: 20px;
   margin-bottom: 10px;
+  text-align: justify;
   color: #ffffff;
   margin-left: 150px; /* Отступ справа в 100px */
   margin-right: 150px;
   }
   
+  
   .studio-description__text1 {
-  font-size: 1.2rem;
+  font-size: 2.0rem;
+  text-align: center;
   line-height: 1.5;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #4d17b9;
   margin-left: 150px; /* Отступ справа в 100px */
   margin-right: 150px;
   margin-bottom: 100px;
@@ -142,9 +145,14 @@
   color: #ffffff;
   }
   
-  
-  
-  
+  .imgLogo {
+    display: block;
+    margin: 0 auto;
+  margin-bottom: 40px;
+  width: 350px;
+    height:350px;
+    border-radius: 10px;
+  }
   .image-container {
   display: flex;
   justify-content: space-between;
@@ -159,6 +167,9 @@
   margin-right: 20px;
   border-radius: 10px;
   overflow: hidden;
+  }
+  .image-wrapper:hover {
+    transform: scale(1.07);
   }
   
   .image {

@@ -4,11 +4,15 @@ import './StyleMe.css';
 import photo1 from './photos/photo1.jpg';
 import photo2 from './photos/photo2.jpg';
 import photo3 from './photos/photo3.jpg';
+import logo from './photos/logo.png';
 function Me() {
 return (
 <div className="me-container">
 <div className="studio-description">
 <h1 className="studio-description__title">Добро пожаловать в нашу спортивную студию!</h1>
+<div className="imgLogo">
+            <img src={logo} className="imgLogo" alt="" /> 
+            </div>
 <div className="image-container">
 <div className="image-wrapper">
 <img src={photo1} alt="Image 1" className="image" />
