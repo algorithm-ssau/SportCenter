@@ -14,9 +14,9 @@
   
   
   
-.Directions-header {
+.Directionsss-header {
     /*background-color: #282c34;*/
-    min-height: 240vh; 
+    min-height: 200vh; 
     flex-direction: column;
     /*font-size: calc(10px + 2vmin);*/
     color: #FFFFFF; /*изменен цвет текста */
@@ -79,6 +79,6 @@ body{
 
 .box9{
     position: absolute;
-    top:830px;
+    top:860px;
     left: 750px;;
 }

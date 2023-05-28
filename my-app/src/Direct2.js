@@ -9,7 +9,7 @@ import photo2_4 from './photos/img2_4.jpg';
 function Direct2(){
     return(
         <div className="Direct2">
-            <header className="Directions-header">
+            <header className="Directionsss-header">
                 <div className="Direct">
                     <br/>
                     
