@@ -4,6 +4,6 @@
     width: 18rem; 
     height: 16rem; 
     margin: 8rem; 
-    border-radius: 40px;
+    border-radius: 100px;
     overflow: hidden; /* чтобы скрыть элементы, выходящие за границы блока */
   }
