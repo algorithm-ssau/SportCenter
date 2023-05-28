@@ -10,11 +10,11 @@ import photo5_4 from './photos/img5_4.jpg';
 function Direct5(){
     return(
         <div className="Direct5">
-            <header className="Directions-header">
+            <header className="Directions-headerrr">
                 <div className="Direct">
                     <br></br>
                     
-                    <div className="box1">
+                    <div className="boxs1">
                         <div style={{  fontFamily: "Garamond", fontWeight: "bold",fontSize: "60px"}}>Йога</div>
                     </div>
                     

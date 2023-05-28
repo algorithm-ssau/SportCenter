@@ -1,6 +1,6 @@
 .box13{
     position: absolute;
-    top: 200px;
+    top: 260px;
     right: 920px;
     left: 90px;
   
@@ -9,7 +9,7 @@
 .box14{
   
     position:absolute;
-    top:900px;
+    top:1010px;
     left:0px;
     right: 0px;
 }
@@ -17,7 +17,7 @@
 .box15{
     
     position:absolute;
-    top:1195px;
+    top:1325px;
     left:0px;
     right: 0px;
 }
@@ -25,7 +25,18 @@
 .box16{
     
     position:absolute;
-    top:1470px;
+    top:1615px;
     left:0px;
     right: 0px;
 }
+
+.Directions-headerrr { 
+    /*background-color: #282c34;*/
+    min-height: 260vh; 
+    flex-direction: column;
+    /*font-size: calc(10px + 2vmin);*/
+    color: #FFFFFF; /*изменен цвет текста */
+    background: linear-gradient(#CB2D6F,#14a098,#0F292F); 
+    
+     
+  }
