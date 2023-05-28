@@ -10,6 +10,11 @@ import HomePage from './CallPage';
 import Me from './me';
 import './Style.css';
 import Napravlenie1 from './napravlenie1';
+import Direct2 from './Direct2';
+import Direct3 from './Direct3';
+import Direct4 from './Direct4';
+import Direct5 from './Direct5';
+import Direct6 from './Direct6';
 
 function App() {
 
@@ -78,6 +83,11 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/me" element={<Me />} />
           <Route path="/napravlenie1" element={<Napravlenie1 />} />
+          <Route path="/Direct2" element={<Direct2 />} />
+          <Route path="/Direct3" element={<Direct3 />} />
+          <Route path="/Direct4" element={<Direct4 />} />
+          <Route path="/Direct5" element={<Direct5 />} />
+          <Route path="/Direct6" element={<Direct6 />} />
           {/* ... */}
         </Routes>
 
