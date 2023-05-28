@@ -9,7 +9,8 @@
     height: 275px;
     /*box-shadow: 0 0 5px 2px;*/
     margin-left: 0px;
-    margin-bottom: -4px;
+    margin-bottom: -2px;
+    margin-top: -2px;
   }
   
   
@@ -35,13 +36,13 @@
     position: relative;
   }
   
-  .box1{
+  .boxs1{
     position:absolute;
     right: 950px;
     /*left: 9em;
     top:9em;*/
     left:110px;
-    top:100px;
+    top:170px;
   
   }
   
@@ -53,7 +54,7 @@
   
   .box3{
     position: absolute;
-    top: 270px;
+    top: 340px;
     right: 920px;
     left: 90px;
   
@@ -62,7 +63,7 @@
   .box4{
     
     position:absolute;
-    top:700px;
+    top:790px;
     left:0px;
     right: 0px;
   }
@@ -70,7 +71,7 @@
   .box5{
     
     position:absolute;
-    top:1020px;
+    top:1120px;
     left:0px;
     right: 0px;
   }
@@ -78,7 +79,7 @@
   .box6{
     
     position:absolute;
-    top:1295px;
+    top:1405px;
     left:0px;
     right: 0px;
   }

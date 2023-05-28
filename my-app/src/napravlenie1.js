@@ -15,7 +15,7 @@ function Napr1() {
                 <div className="Direct">
                     <br/>
                     
-                    <div className="box1">
+                    <div className="boxs1">
                         <div style={{  fontFamily: "Garamond", fontWeight: "bold",fontSize: "60px"}}>Групповые программы</div>
                     </div>
                     <br/>
