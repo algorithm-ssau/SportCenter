@@ -13,6 +13,8 @@ import photo4 from './photos/img3.jpg';
 import photo5 from './photos/img4.jpg';
 import photo6 from './photos/img5.jpg';
 
+import Direct2 from './Direct2';
+
 
 function Categ() {
   return (
@@ -48,11 +50,11 @@ function Categ() {
                 <div className="imgblock">
                 <div className="hover-text-one">
                     <figure className="effect-text-two">
-                        <img src={photo2} alt=""/>
+                        <Link to="/Direct2"><img src={photo2} alt=""/>
                         <figcaption>
                             <h3>Персональные <span>тренировки</span></h3>
                             <p>Выбор тренера, составление индивидуальной программы, учитывающей все пожелания и многое другое</p>
-                        </figcaption>
+                        </figcaption></Link>
                     </figure>
                 </div>
                 </div>
