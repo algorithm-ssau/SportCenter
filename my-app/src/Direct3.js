@@ -14,7 +14,7 @@ function Direct3(){
                 <div className="Direct">
                     <br/>
                     
-                    <div className="box1">
+                    <div className="boxs1">
                         <div style={{  fontFamily: "Garamond", fontWeight: "bold",fontSize: "60px"}}>Тренажерный зал</div>
                     </div>
                     <br/>
