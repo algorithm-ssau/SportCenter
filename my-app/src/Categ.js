@@ -74,11 +74,11 @@ function Categ() {
                 <div className="imgblock">
                 <div className="hover-text-one">
                     <figure className="effect-text-two">
-                        <img src={photo4} alt=""/>
+                        <Link to="/Direct4"><img src={photo4} alt=""/>
                         <figcaption>
                             <h3>Бассейн <span>с морской водой</span></h3>
                             <p>Бассейн с морской водой, 25 метров. Детский бассейн. Аквааэробика, классическое плавание, реабилитационные курсы</p>
-                        </figcaption>
+                        </figcaption></Link>
                     </figure>
                 </div>
                 </div>
