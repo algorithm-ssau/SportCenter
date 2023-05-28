@@ -37,45 +37,45 @@ function Napr1() {
                             <img src={photo1_4}/>
                         </div>
                     </div>
-
-
-                        <div className="box4">
-                            <div className="rectangle">
-                                <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",paddingLeft:"20px",paddingRight:"20px",paddingTop:"20px"}}>Аэробные программы</div>
-                                <br></br>
-                                <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",paddingLeft:"20px",paddingRight:"20px",paddingBottom:"20px"}}>Аэробные программы – классика любого фитнес-центра. Во время таких занятий потребляется
+                    
+                    
+                    <div className="box4">
+                        <div className="rectangle">
+                            <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",paddingLeft:"20px",paddingRight:"20px",paddingTop:"20px"}}>Аэробные программы</div>
+                            <br></br>
+                            <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",paddingLeft:"20px",paddingRight:"20px",paddingBottom:"20px"}}>Аэробные программы – классика любого фитнес-центра. Во время таких занятий потребляется
                                                       большое количество кислорода, за счет чего быстро уходит лишний вес. В клубе FITenergy вы найдете полный спектр
                                                       аэробных тренировок: от традиционных до самых необычных и модных.Аэробные программы – классика любого
                                                       фитнес-центра. Во время таких занятий потребляется большое количество кислорода, за счет чего быстро
                                                       уходит лишний вес. В клубе FITenergy вы найдете полный спектр аэробных тренировок: от традиционных до самых
                                                       необычных и модных.
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div className="box5">
-                            <div className="rectangle text">
-                                <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",padding:"10px"}}>Силовая тренировка</div>
-                                <br></br>
-                                <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",padding:"10px"}}>Групповые программы в фитнес-центре FITenergy обязательно
+                    <div className="box5">
+                        <div className="rectangle text">
+                            <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",padding:"10px"}}>Силовая тренировка</div>
+                            <br></br>
+                            <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",padding:"10px"}}>Групповые программы в фитнес-центре FITenergy обязательно
                                 включают комплекс упражнений для силовых тренировок. Они развивают выносливость, увеличивают мышечную силу, формируют рельеф.
                                 Занятия проводятся с использованием оборудования: сборные штанги, бодибары, гантели, амортизаторы, медицинские мячи, фитболы
                                 и т.д. Инвентарь прорабатывает как все тело, так и отдельные мышечные группы.
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div className="box6">
-                            <div className="rectangle text">
-                                <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",padding:"10px"}}>Танцевальные программы</div>
-                                <br></br>
-                                <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",padding:"10px"}}>Танцевальные программы – это любимый многими вид активности,
+                    <div className="box6">
+                        <div className="rectangle text">
+                            <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",padding:"10px"}}>Танцевальные программы</div>
+                            <br></br>
+                            <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",padding:"10px"}}>Танцевальные программы – это любимый многими вид активности,
                                 ведь сложно найти более искренний и завораживающий способ передать эмоции и чувства. А еще у танца нет возраста: научиться
                                 правильно и красиво двигаться может каждый, главное – желание! Наши хореографы обучают самым популярным танцевальным
                                 направлениям и помогают каждому почувствовать свое тело.
-                                </div>
                             </div>
                         </div>
+                    </div>
                         
 
 

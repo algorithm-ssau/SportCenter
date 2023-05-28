@@ -43,24 +43,24 @@ function Direct3(){
 
 
                     <div className="box8">
-                            <div className="rectangle2 text">
-                                <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",paddingLeft:"40px",paddingTop:"40px",paddingRight:"40px"}}>ЭФФЕКТИВНЫЕ ТРЕНИРОВКИ - ВСЕ ПОД РУКОЙ</div>
-                                <br></br>
-                                <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",paddingLeft:"40px",paddingBottom:"40px",paddingRight:"40px"}}>Оборудование в наших залах грамотно расставлено,
+                        <div className="rectangle2 text">
+                            <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",paddingLeft:"40px",paddingTop:"40px",paddingRight:"40px"}}>ЭФФЕКТИВНЫЕ ТРЕНИРОВКИ - ВСЕ ПОД РУКОЙ</div>
+                            <br></br>
+                            <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",paddingLeft:"40px",paddingBottom:"40px",paddingRight:"40px"}}>Оборудование в наших залах грамотно расставлено,
                                 поэтому вам не придется искать нужный тренажер для выполнения очередного упражнения.
-                                </div>
                             </div>
+                        </div>
                     </div>
 
                     <div className="box10">
-                            <div className="rectangle2 text">
-                                <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",paddingLeft:"40px",paddingTop:"40px",paddingRight:"40px"}}>ФИТНЕС МЕНЯЕТ ЖИЗНЬ</div>
-                                <br></br>
-                                <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",paddingLeft:"40px",paddingBottom:"40px",paddingRight:"40px"}}>Регулярные тренировки – это не только красивая фигура
+                        <div className="rectangle2 text">
+                            <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",paddingLeft:"40px",paddingTop:"40px",paddingRight:"40px"}}>ФИТНЕС МЕНЯЕТ ЖИЗНЬ</div>
+                            <br></br>
+                            <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",paddingLeft:"40px",paddingBottom:"40px",paddingRight:"40px"}}>Регулярные тренировки – это не только красивая фигура
                                 и здоровый организм, но еще и отличное настроение! Занятия ускоряют обмен веществ, способствуют выработке эндорфинов,
                                 дарят энергию и заряд бодрости. В наших залах вы пройдете все запланированные этапы тренировки с комфортом и без потери времени.
-                                </div>
                             </div>
+                        </div>
                     </div>
 
 
