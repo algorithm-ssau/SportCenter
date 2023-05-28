@@ -34,7 +34,7 @@ function PricesPage() {
               </h2>
           </div>
         </div>
-        <div className="cont1">
+        <div className="cont">
             <div className="imgBoxes1">
            <img src={card2} className="imgBoxes1" alt="" /> 
             </div>
