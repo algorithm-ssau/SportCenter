@@ -13,7 +13,7 @@ function Direct2(){
                 <div className="Direct">
                     <br/>
                     
-                    <div className="box1">
+                    <div className="boxs1">
                         <div style={{  fontFamily: "Garamond", fontWeight: "bold",fontSize: "60px"}}>Персональные тренировки</div>
                     </div>
                     <br/>
@@ -41,7 +41,7 @@ function Direct2(){
                     </div>
 
 
-                    <div className="box8">
+                    <div className="boxs8">
                             <div className="rectangle2">
                                 <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",paddingLeft:"40px",paddingTop:"40px",paddingRight:"40px"}}>ЭФФЕКТИВНОСТЬ И БЕЗОПАСНОСТЬ</div>
                                 <br></br>
