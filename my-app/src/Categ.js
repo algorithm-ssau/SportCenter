@@ -98,11 +98,11 @@ function Categ() {
                 <div className="imgblock">
                 <div className="hover-text-one">
                     <figure className="effect-text-two">
-                        <img src={photo6} alt=""/>
+                        <Link to="/Direct6"><img src={photo6} alt=""/>
                         <figcaption>
                             <h3>Стретчинг <span>и шпагат</span></h3>
                             <p>Развитие гибкости и стройности, ускрепление мышц тела, приобретение уверенности в себе</p>
-                        </figcaption>
+                        </figcaption></Link>
                     </figure>
                 </div>
                 </div>
