@@ -10,7 +10,7 @@ import './Trainers.css';
 function PricesPage() { 
   return ( 
     <div className="PricesPage"> 
-      <header className="PricesPage-header"> 
+      <header className="Trainers-header"> 
       <br/>
       <div className='PricesPage-head'>
               <div style={{ textAlign: "center",fontFamily: "Garamond", fontWeight: "bold",fontSize: "60px"}}>Цены абонементов</div>
