@@ -1,0 +1,29 @@
+@import url('https://api-maps.yandex.ru/2.1.77/combine.css');
+
+.me-container {
+    text-align: center;
+    font-family: 'Your Font', sans-serif;
+  }
+  
+  .highlight {
+    color: #000000;
+    background-color: #f9f9f9;
+    padding: 5px;
+  }
+  
+  .image-container {
+    /* Стили для контейнера с фотографиями или видео */
+  }
+  
+  .custom-button {
+    /* Стили для кастомной кнопки */
+  }
+  
+  .map-container {
+    /* Стили для контейнера с картой */
+  }
+  
+  .additional-info {
+    background-color: 
+    rgb(4, 142, 105);
+  }

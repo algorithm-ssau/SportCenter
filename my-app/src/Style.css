@@ -2,7 +2,7 @@
   background-color: #097e78;
   padding: 8px;
   border-bottom: 2px solid #180f13;
-  margin: top 30px;
+  margin: top 2px;
 }
 
 .navbar-brand {
@@ -23,15 +23,15 @@
   color: #333;
   font-weight: bold;
   text-decoration: none;
-  margin-right: 30px;
+  margin-right: 220px;
 }
 
 .nav-link:hover {
-  color: #e96dc6;
+  color: #da8cae;
 }
 .form-group {
   
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .form-label {
@@ -68,12 +68,12 @@
   margin-top: 85px;
 }
 .btn-primary:hover {
-  background-color: #003124;
+  background-color: #073f31;
   border-color: #333;
 }
 .footer {
-  color: rgb(0, 0, 0);
-  background-color: #097e78;
+  color: rgb(217, 170, 190);
+  background-color: #09372c;
   position: fixed;
   bottom: 0;
   width: 100%;
