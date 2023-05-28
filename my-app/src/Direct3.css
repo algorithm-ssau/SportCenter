@@ -1,0 +1,22 @@
+.box8{
+    position: absolute;
+    top:860px;
+    left: 150px;;
+}
+
+.box10{
+    position: absolute;
+    top:860px;
+    left: 750px;;
+}
+
+.Direct-header { 
+    /*background-color: #282c34;*/
+    min-height: 190vh; 
+    flex-direction: column;
+    /*font-size: calc(10px + 2vmin);*/
+    color: #FFFFFF; /*изменен цвет текста */
+    background: linear-gradient(#CB2D6F,#14a098,#0F292F); 
+    
+     
+  }

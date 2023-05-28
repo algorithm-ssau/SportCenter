@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import './StyleMe.css';
 
 function Me() {
-  useEffect(() => {
+ /* useEffect(() => {
     const initMap = () => {
       // Создание объекта карты
       const map = new window.google.maps.Map(document.getElementById('map'), {
@@ -30,29 +30,21 @@ function Me() {
     // Инициализация карты
     window.initMap = initMap;
   }, []);
-
+*/
   return (
     <div className="me-container">
-      <h1>О нас</h1>
-      <p>Добро пожаловать в нашу современную спортивную студию!</p>
-      <p>Мы предлагаем широкий спектр тренировок и программ для достижения ваших фитнес-целей.</p>
-      <div className="image-container">
+      <div className="studio-description">
+      <h1 className="studio-description__title">Добро пожаловать в нашу спортивную студию!</h1>
+      <p className="studio-description__text">Мы предлагаем уникальную комбинацию тренировок и программ для достижения ваших фитнес-целей. Наша студия оснащена современным оборудованием, а наши профессиональные инструкторы помогут вам развить физическую форму, повысить выносливость и улучшить общее самочувствие.</p>
+      <p className="studio-description__text">Мы предлагаем широкий спектр тренировок, включая групповые занятия, персональные тренировки, йогу, пилатес, функциональный тренинг и многое другое. Независимо от вашего уровня физической подготовки или целей, у нас вы найдете подходящую программу для себя.</p>
+      <p className="studio-description__text">Наши залы оформлены в современном стиле, создавая комфортную и мотивирующую атмосферу для тренировок. Мы стремимся предоставить нашим клиентам лучший опыт фитнеса и помочь им достичь своих целей в приятной и поддерживающей среде.</p>
+      <p className="studio-description__text">Присоединяйтесь к нам уже сегодня и начните свой путь к здоровью, фитнесу и активной жизни!</p>
+    </div>
+    <div className="image-container">
         {/* Вставьте здесь фотографии или видео */}
       </div>
-      <div className="button-container">
-        <Button variant="primary" className="custom-button">
-          Расписание тренировок
-        </Button>
-      </div>
-      <div className="map-container">
-        <div id="map" className="map"></div> {/* Добавлен контейнер для карты */}
-      </div>
-      <div className="additional-info">
-        <h2>Контактная информация</h2>
-        <p>Адрес: ул. Примерная, 123, г. Ваш Город</p>
-        <p>Телефон: +7 123 456 789</p>
-        <p>Email: info@studio.com</p>
-      </div>
+
+
     </div>
   );
 }
