@@ -1,7 +1,7 @@
 .custom-navbar {
-  background-color: #000000;
-  padding: 8px;
-  border-bottom: 2px solid #180f13;
+  background-color: #da1e1e;
+  padding: 0px;
+  border-bottom: 2px solid #fffcfe;
   margin: top 2px;
 }
 
@@ -19,11 +19,11 @@
 }
 
 .nav-link {
-  
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-  margin-right: 190px;
+  margin-right: 50px;
+  margin-left: 150px;
 }
 
 .nav-link:hover {
@@ -87,10 +87,6 @@
   line-height: 1.9;
 
 }
-
-
-
-
 
 
 

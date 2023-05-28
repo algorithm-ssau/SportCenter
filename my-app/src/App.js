@@ -15,6 +15,7 @@ import Direct3 from './Direct3';
 import Direct4 from './Direct4';
 import Direct5 from './Direct5';
 import Direct6 from './Direct6';
+import logo from './photos/logo.png';
 
 
 function App() {
@@ -57,11 +58,14 @@ function App() {
   return (
     <Router>
       <div className="app-container">
+    
       <Navbar bg="light" expand="lg" className="custom-navbar">
-       
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggle" />
+        
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
+          <div className="imgLogo">
+            <img src={logo} className="imgLogo" alt="" /> 
+            </div>
           <Nav.Link href="/me" className="nav-link"style={{fontFamily: "Garamond",fontSize: "20px"}}>Главная</Nav.Link>
             <Nav.Link as={Link} to="/trainers" className="nav-link" style={{fontFamily: "Garamond",fontSize: "20px"}}>Тренеры</Nav.Link>
             <Nav.Link href="/prices" className="nav-link"style={{fontFamily: "Garamond",fontSize: "20px"}}>Цены</Nav.Link>
