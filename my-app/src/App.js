@@ -61,6 +61,7 @@ return (
 
 <Navbar.Collapse id="basic-navbar-nav">
 <Nav className="mr-auto">
+<Nav.Link href="/me" className="nav-link1"style={{fontFamily: "Montserrat",fontSize: "30px"}}>FITenergy</Nav.Link>       
 <Nav.Link href="/me" className="nav-link"style={{fontFamily: "Garamond",fontSize: "20px"}}>Главная</Nav.Link>
 <Nav.Link as={Link} to="/trainers" className="nav-link" style={{fontFamily: "Garamond",fontSize: "20px"}}>Тренеры</Nav.Link>
 <Nav.Link href="/prices" className="nav-link"style={{fontFamily: "Garamond",fontSize: "20px"}}>Цены</Nav.Link>

@@ -22,13 +22,21 @@
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-  margin-right: 50px;
-  margin-left: 150px;
+  margin-right: 100px;
+  margin-left: 70px;
 }
 
 .nav-link:hover {
   color: #e96dc6;
 }
+.nav-link1 {
+  color: #17dfdf;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 .form-group {
   
   margin-bottom: 50px;
