@@ -17,6 +17,16 @@
     background-position: center center;
     background-repeat: no-repeat;
   }
+  .imgBoxesL {
+    width: 350px;
+    height: 350px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    margin-right: 100px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
   .imgBoxes:hover {
     transform: scale(1.05);
   }
