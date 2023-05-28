@@ -28,7 +28,7 @@ function Direct2(){
                     
                     
                     <div className="box2">
-                        <div className="container">
+                        <div className="containerrr">
                             <img src={photo1} />
                             <img src={photo2_2} />
                             <img src={photo2_3}/>
