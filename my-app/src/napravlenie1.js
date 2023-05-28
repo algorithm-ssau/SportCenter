@@ -41,9 +41,9 @@ function Napr1() {
 
                         <div className="box4">
                             <div className="rectangle">
-                                <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",padding:"10px"}}>Аэробные программы</div>
+                                <div style={{fontFamily:"Garamond",fontWeight:"bolder",fontSize:"30px",paddingLeft:"20px",paddingRight:"20px",paddingTop:"20px"}}>Аэробные программы</div>
                                 <br></br>
-                                <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",padding:"10px"}}>Аэробные программы – классика любого фитнес-центра. Во время таких занятий потребляется
+                                <div style={{fontFamily:"Garamond",fontWeight:"normal",fontSize:"20px",paddingLeft:"20px",paddingRight:"20px",paddingBottom:"20px"}}>Аэробные программы – классика любого фитнес-центра. Во время таких занятий потребляется
                                                       большое количество кислорода, за счет чего быстро уходит лишний вес. В клубе FITenergy вы найдете полный спектр
                                                       аэробных тренировок: от традиционных до самых необычных и модных.Аэробные программы – классика любого
                                                       фитнес-центра. Во время таких занятий потребляется большое количество кислорода, за счет чего быстро
