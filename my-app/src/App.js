@@ -56,18 +56,18 @@ function App() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggle" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link as={Link} to="/trainers" className="nav-link">Тренеры</Nav.Link>
-            <Nav.Link href="/prices" className="nav-link">Цены</Nav.Link>
-            <Nav.Link href="/categ" className="nav-link">Направления</Nav.Link>
-            <Nav.Link href="/home" className="nav-link">Заказать звонок</Nav.Link>
-            <Nav.Link href="/me" className="nav-link">О нас</Nav.Link>
+            <Nav.Link as={Link} to="/trainers" className="nav-link" style={{fontFamily: "Garamond",fontSize: "20px"}}>Тренеры</Nav.Link>
+            <Nav.Link href="/prices" className="nav-link"style={{fontFamily: "Garamond",fontSize: "20px"}}>Цены</Nav.Link>
+            <Nav.Link href="/categ" className="nav-link"style={{fontFamily: "Garamond",fontSize: "20px"}}>Направления</Nav.Link>
+            <Nav.Link href="/home" className="nav-link"style={{fontFamily: "Garamond",fontSize: "20px"}}>Заказать звонок</Nav.Link>
+            <Nav.Link href="/me" className="nav-link"style={{fontFamily: "Garamond",fontSize: "20px"}}>О нас</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
         
       <Navbar className="footer" bg="dark" variant="dark" fixed="bottom">
-      <Navbar.Text style={{ display: 'block' }}>Адрес студии: Несуществующий переулок, дом 3 строение 5, офис 309</Navbar.Text>
-      <Navbar.Text style={{ display: 'block' }}>Сайт разработан студентами группы 6314 для задания по предмету практикум ЭВМ</Navbar.Text>
+      <Navbar.Text style={{ display: 'block',fontFamily: "Garamond",fontSize: "15px" }}>Адрес студии: Несуществующий переулок, дом 3 строение 5, офис 309</Navbar.Text>
+      <Navbar.Text style={{ display: 'block',fontFamily: "Garamond",fontSize: "15px" }}>Сайт разработан студентами группы 6314 для задания по предмету практикум ЭВМ</Navbar.Text>
 </Navbar>
 
       

@@ -1,6 +1,12 @@
-import photo from './photos/IMG_0251.jpg';
+import tr1 from './photos/tr1.jpg';
+import tr2 from './photos/tr2.jpg';
+import tr3 from './photos/tr3.jpg';
+import tr4 from './photos/tr4.jpg';
+import tr5 from './photos/tr5.jpg';
+import tr6 from './photos/tr6.jpg';
+import tr7 from './photos/tr7.jpg';
+import tr8 from './photos/tr8.jpg';
 import './Trainers.css';
-
 
 function Trainers() { 
   return ( 
@@ -12,10 +18,10 @@ function Trainers() {
               <a href='direct'> </a>
       </div>
       <br/>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="logo" /> 
+            <img src={tr2} className="imgBox" alt="" /> 
             </div>
             <div className="content">
               <h2 style={{fontFamily: "Garamond"}}>
@@ -26,10 +32,10 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="logo" /> 
+            <img src={tr7} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -40,10 +46,10 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="logo" /> 
+            <img src={tr1} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -54,10 +60,10 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="logo" /> 
+            <img src={tr5} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -68,10 +74,10 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="logo" /> 
+            <img src={tr4} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -82,10 +88,10 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="logo" /> 
+            <img src={tr6} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -96,10 +102,10 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="logo" /> 
+            <img src={tr3} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -110,10 +116,10 @@ function Trainers() {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container1">
           <div className="box">
             <div className="imgBox">
-            <img src={photo} className="imgBox" alt="logo" /> 
+            <img src={tr8} className="imgBox" alt="" /> 
             </div>
             <div className="content">
             <h2 style={{fontFamily: "Garamond"}}>
@@ -131,3 +137,4 @@ function Trainers() {
 }
 
 export default Trainers;
+

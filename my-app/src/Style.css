@@ -1,5 +1,5 @@
 .custom-navbar {
-  background-color: #097e78;
+  background-color: #000000;
   padding: 8px;
   border-bottom: 2px solid #180f13;
   margin: top 2px;
@@ -20,14 +20,14 @@
 
 .nav-link {
   
-  color: #333;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
   margin-right: 220px;
 }
 
 .nav-link:hover {
-  color: #da8cae;
+  color: #e96dc6;
 }
 .form-group {
   
@@ -72,8 +72,8 @@
   border-color: #333;
 }
 .footer {
-  color: rgb(217, 170, 190);
-  background-color: #09372c;
+  color: rgb(0, 0, 0);
+  background-color: #097e78;
   position: fixed;
   bottom: 0;
   width: 100%;
