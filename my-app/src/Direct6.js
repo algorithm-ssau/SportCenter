@@ -11,7 +11,7 @@ import photo6_4 from './photos/img6_4.jpg';
 function Direct6(){
     return(
         <div className="Direct5">
-            <header className="Directions-header">
+            <header className="Dir-header">
                 <div className="Direct">
                     <br></br>
                     
@@ -27,7 +27,7 @@ function Direct6(){
 
                     </div>
                     
-                    
+                    <br></br>
                     <div className="box2">
                         <div className="containerrr">
                             <img src={photo1} />
