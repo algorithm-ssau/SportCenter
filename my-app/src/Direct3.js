@@ -10,7 +10,7 @@ import photo3_4 from './photos/img3_4.jpg';
 function Direct3(){
     return(
         <div className="Direct3">
-            <header className="Directions-header">
+            <header className="Direct-header">
                 <div className="Direct">
                     <br/>
                     
