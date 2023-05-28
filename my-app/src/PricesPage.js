@@ -34,11 +34,11 @@ function PricesPage() {
               </h2>
           </div>
         </div>
-        <div className="cont">
-            <div className="imgBoxes1">
-           <img src={card2} className="imgBoxes1" alt="" /> 
+        <div className="cont2">
+            <div className="imgBoxes2">
+           <img src={card2} className="imgBoxes2" alt="" /> 
             </div>
-            <div className="contents1">
+            <div className="contents2">
             <h2 style={{fontFamily: "Garamond"}}>
                 <span style={{fontSize: "35px"}}>2500 за 8 занятий</span> <br/>
                 <br/>
@@ -63,12 +63,12 @@ function PricesPage() {
               </h2>
           </div>
         </div>
-        <div className="cont">
+        <div className="cont2">
 
-            <div className="imgBoxes1">
-            <img src={card4} className="imgBoxes1" alt="" /> 
+            <div className="imgBoxes2">
+            <img src={card4} className="imgBoxes2" alt="" /> 
             </div>
-            <div className="contents1">
+            <div className="contents2">
             <h2 style={{fontFamily: "Garamond"}}>
                 <span style={{fontSize: "35px"}}>3500 за 8 индивидуальных занятий</span> <br/>
                 <br/>
@@ -78,11 +78,11 @@ function PricesPage() {
               </h2>
           </div>
         </div>
-        <div className="cont">
-            <div className="imgBoxes">
-            <img src={card6} className="imgBoxes" alt="" /> 
+        <div className="cont2">
+            <div className="imgBoxes2">
+            <img src={card6} className="imgBoxes2" alt="" /> 
             </div>
-            <div className="contents">
+            <div className="contents2">
             <h2 style={{fontFamily: "Garamond"}}>
                 <span style={{fontSize: "35px"}}>4500 за 12 индивидуальных занятий</span> <br/>
                 <br/>
@@ -92,11 +92,11 @@ function PricesPage() {
               </h2>
           </div>
         </div>
-        <div className="cont">
-            <div className="imgBoxes1">
-            <img src={card5} className="imgBoxes1" alt="" /> 
+        <div className="cont2">
+            <div className="imgBoxes2">
+            <img src={card5} className="imgBoxes2" alt="" /> 
             </div>
-            <div className="contents1">
+            <div className="contents2">
             <h2 style={{fontFamily: "Garamond"}}>
                 <span style={{fontSize: "35px"}}>5000 за безлимитное посещение</span> <br/>
                 <br/>

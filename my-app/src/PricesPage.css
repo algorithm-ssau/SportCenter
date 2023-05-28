@@ -17,22 +17,36 @@
     background-position: center center;
     background-repeat: no-repeat;
   }
+  .imgBoxes:hover {
+    transform: scale(1.05);
+  }
+  .contents:hover {
+    transform: scale(1.15);
+  }
+  .imgBoxes2:hover {
+    transform: scale(1.05);
+  }
+  .contents2:hover {
+    transform: scale(1.15);
+  }
   
   .contents {
     font-size: 50px;
     line-height: 24px;
     font-weight: 400;
+    margin-right: 100px;
     color: #ffffff;
     text-align: justify;
   }
-  .contents1 {
-    font-size: 50px;
-    line-height: 24px;
-    margin-right: 10px;
-    color: #ffffff;
-    text-align: justify;
+  .cont2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* добавлена тень */
   }
-  .imgBoxes1 {
+  .imgBoxes2 {
     width: 556px;
     height: 350px;
     background-color: #f5f5f5;
@@ -42,4 +56,11 @@
     background-position: center center;
     background-repeat: no-repeat;
   }
-  
+  .contents2 {
+    font-size: 50px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-right: 100px;
+    color: #ffffff;
+    text-align: justify;
+  }
