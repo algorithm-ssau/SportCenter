@@ -12,7 +12,7 @@ function PricesPage() {
     <div className="PricesPage"> 
       <header className="Trainers-header"> 
       <br/>
-      <div className='PricesPage-head'>
+      <div className='Trainers-head'>
               <div style={{ textAlign: "center",fontFamily: "Garamond", fontWeight: "bold",fontSize: "60px"}}>Цены абонементов</div>
               <a href='direct'> </a>
       </div>
