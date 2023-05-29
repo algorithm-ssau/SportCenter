@@ -13,7 +13,7 @@ import photo4 from './photos/img3.jpg';
 import photo5 from './photos/img4.jpg';
 import photo6 from './photos/img5.jpg';
 
-import Direct2 from './Direct2';
+//import Direct2 from './Direct2';
 
 
 function Categ() {

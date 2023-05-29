@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Categ.css';
-import './napravlenie1.css';
+//import './napravlenie1.css';
 import photo1 from './photos/img1.jpeg';
 import photo1_2 from './photos/img1_2.jpg';
 import photo1_3 from './photos/img1_3.jpg';
