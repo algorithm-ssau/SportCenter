@@ -1,7 +1,7 @@
 //import './Directions.css';
-import './napravlenie1.css';
-import './Direct6.css';
-import './Direct2.css';
+//import './napravlenie1.css';
+//import './Direct6.css';
+import './Categ.css';
 import photo1 from './photos/img5.jpg';
 import photo6_2 from './photos/img6_2.jpeg';
 import photo6_3 from './photos/img6_3.jpg';

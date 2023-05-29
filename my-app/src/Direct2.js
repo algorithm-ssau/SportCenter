@@ -1,5 +1,6 @@
-import './Direct2.css';
-import './napravlenie1.css';
+//import './Direct2.css';
+//import './napravlenie1.css';
+import './Categ.css';
 import photo1 from './photos/img6.jpg';
 import photo2_2 from './photos/img2_2.jpeg';
 import photo2_3 from './photos/img2_3.jpg';

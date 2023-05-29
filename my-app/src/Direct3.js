@@ -1,4 +1,4 @@
-import './Direct3.css';
+//import './Direct3.css';
 import './Categ.css';
 
 import photo1 from './photos/img2.jpg';

@@ -1,6 +1,6 @@
-//import './Directions.css';
-import './Direct4.css';
-import './napravlenie1.css';
+import './Categ.css';
+//import './Direct4.css';
+//import './napravlenie1.css';
 import photo1 from './photos/img3.jpg';
 import photo4_2 from './photos/img4_2.jpg';
 import photo4_3 from './photos/img4_3.jpg';
