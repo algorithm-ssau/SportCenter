@@ -9,4 +9,4 @@
 Проект запускается на http://localhost:3000/
 mongodb+srv://admin:<password>@cluster0.il5zpnc.mongodb.net/test - ссылка на подключение к базе данных
 Для API запроса используется python app.py
-
+САЙТ: https://algorithm-ssau.github.io/trainers
