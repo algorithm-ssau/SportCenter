@@ -4,7 +4,6 @@ import Trainers from './Trainers';
 import PricesPage from './PricesPage';
 import Categ from './Categ';
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
-import './styles.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './CallPage';
 import Me from './me';

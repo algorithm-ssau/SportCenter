@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import './StyleMe.css';
+import './Style.css';
 import photo1 from './photos/photo1.jpg';
 import photo2 from './photos/photo2.jpg';
 import photo3 from './photos/photo3.jpg';
