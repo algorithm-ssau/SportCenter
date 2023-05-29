@@ -17,7 +17,7 @@ return (
        <div className="imgBoxesL">
        <img src={logo} className="imgBoxesL" alt="" /> 
        </div>
-       <div className="contents">
+       <div className="contentsss">
          <h2 style={{fontFamily: "Garamond"}}>
            <span style={{fontSize: "50px", color:"#17dfdf"}}>FITenergy</span> <br/>
            <br/>
