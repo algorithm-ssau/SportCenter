@@ -202,3 +202,61 @@
   height: 100%;
   object-fit: cover;
   } 
+  body {
+
+    font-family: Arial, sans-serif;
+    background-color: #daaeb7;
+    margin: 0;
+    padding: 0;
+    background-color: #282c34; 
+    min-height: 100vh; 
+    flex-direction: column; 
+    font-size: calc(10px + 2vmin); 
+    color: #131313; /* изменен цвет текста */
+    background-image: linear-gradient(#CB2D6F,#14a098); 
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #022e24;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
