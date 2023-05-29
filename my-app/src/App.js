@@ -85,8 +85,9 @@ return (
 <Routes>
 {/* ... */}
 <Route path="/" element={<Me />} />
+ <Route path="/prices" element={<PricesPage />} />
 <Route path="/trainers" element={<Trainers />} />
-<Route path="/prices" element={<PricesPage />} />
+
 <Route path="/categ" element={<Categ />} />
 <Route path="/home" element={<HomePage />} />
 <Route path="/me" element={<Me />} />
