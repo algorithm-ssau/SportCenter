@@ -88,7 +88,7 @@ return (
 <Route path="/trainers" element={<Trainers />} />
 
 <Route path="/categ" element={<Categ />} />
-<Route path="/home" element={<HomePage />} />
+<Route path="/home" element={<Trainers />} />
 <Route path="/me" element={<Me />} />
 <Route path="/napravlenie1" element={<Napravlenie1 />} />
 <Route path="/Direct2" element={<Direct2/>}/>
