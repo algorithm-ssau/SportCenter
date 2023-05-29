@@ -4,17 +4,11 @@
     "mongoose": "^7.2.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
-    "react-router-dom": "^6.11.2",
-    "homepage": "https://ValeriyaAR.github.io/SportCenter"
+    "react-router-dom": "^6.11.2"
 
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  },
-  "scripts": {
-     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build"}
+  }
   
 }
