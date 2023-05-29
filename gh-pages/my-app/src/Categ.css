@@ -1,0 +1,501 @@
+.Directions-header {
+	/*background-color: #282c34;*/
+    min-height: 100vh; 
+    flex-direction: column;
+    /*font-size: calc(10px + 2vmin);*/
+    color: #FFFFFF; /*изменен цвет текста */
+    background: linear-gradient(#CB2D6F,#14a098,#0F292F); 
+    
+     
+}
+
+/*.Directions-header{
+	height: 1000px;
+	
+	background: linear-gradient(#CB2D6F,#14a098,#0F292F);
+	
+}*/
+
+.p3{
+	text-align: center;
+}
+
+.imgblock {
+	position: relative;
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 50px;
+	align-items: top;
+}
+.imgblock img {
+	height: 344px;
+	width: 500px;
+	margin-top: 50px;
+	/*margin-left: 20px;
+	margin-right: 20px;*/
+}
+
+/* Общие стили */
+*, *:after, *:before { 
+	/*border-box;*/
+	box-sizing: border-box; 
+}
+.clearfix:before, .clearfix:after { 
+	content: ''; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.hover-text-one {
+	overflow: hidden;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+.hover-text-one figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	/*background: #527c82;*/
+	text-align: center;
+	cursor: pointer;
+}
+.hover-text-one figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+}
+.hover-text-one figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	/*font-size: 1.25em;*/
+	font-size: 25px;
+	font-family: Garamond;
+	font-style:initial;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+	pointer-events: none;
+}
+.hover-text-one figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.hover-text-one figure h3 {
+	word-spacing: -0.15em;
+	font-weight: 400;
+}
+.hover-text-one figure h3 span {
+	font-weight: 900;
+}
+.hover-text-one figure h3,
+.hover-text-one figure p {
+	margin: 0;
+}
+.hover-text-one figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Эффект при наведении */
+figure.effect-text-two figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(top, #484c6100 0%, #484c61cc 75%);
+	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	content: '';
+	opacity: 0;
+	
+	-webkit-transform: translate3d(0,50%,0);
+	transform: translate3d(0,50%,0);
+}
+figure.effect-text-two h3 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	color:#ff006a !important;
+	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
+	transition: transform 0.35s, color 0.35s;
+	-webkit-transform: translate3d(0,-50%,0);
+	transform: translate3d(0,-50%,0);
+}
+figure.effect-text-two figcaption::before,
+figure.effect-text-two p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+figure.effect-text-two p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2em;
+	width: 100%;
+	opacity: 0;
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+}
+figure.effect-text-two:hover h3 {
+	color: #fff;
+	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+figure.effect-text-two:hover figcaption::before ,
+figure.effect-text-two:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+/*napravlenie1*/
+.containerrr{
+	position: relative;
+	display: inline-block;
+	  
+  }
+	
+  .containerrr img{
+	width: 400px;
+	height: 275px;
+	/*box-shadow: 0 0 5px 2px;*/
+	margin-left: 0px;
+	margin-bottom: -2px;
+	margin-top: -2px;
+  }
+	
+	
+	
+  .Directions-header { 
+	/*background-color: #282c34;*/
+	min-height: 240vh; 
+	flex-direction: column;
+	/*font-size: calc(10px + 2vmin);*/
+	color: #FFFFFF; /*изменен цвет текста */
+	background: linear-gradient(#CB2D6F,#14a098,#0F292F); 
+	  
+	   
+  }
+	
+  .Direct{
+	  
+	
+  }
+	
+	  
+  .Direct  body{
+	position: relative;
+  }
+	
+  .boxs1{
+	position:absolute;
+	right: 950px;
+	/*left: 9em;
+	top:9em;*/
+	left:110px;
+	top:170px;
+	
+  }
+	
+  .box2{
+	/* This is the child */
+	position: absolute;
+	left: 600px;
+  }
+	
+  .box3{
+	position: absolute;
+	top: 340px;
+	right: 920px;
+	left: 90px;
+	
+  }
+	
+  .box4{
+	  
+	position:absolute;
+	top:790px;
+	left:0px;
+	right: 0px;
+  }
+	
+  .box5{
+	  
+	position:absolute;
+	top:1120px;
+	left:0px;
+	right: 0px;
+  }
+	
+  .box6{
+	  
+	position:absolute;
+	top:1405px;
+	left:0px;
+	right: 0px;
+  }
+	
+  .rectangle{
+	/*width: 70%;
+	height: 50px;*/
+	/*border:1px solid;*/
+	width:700px;
+	height:auto;
+	margin:auto;
+	background: #CB2D6F;
+	/*box-shadow: 0 0 5px;*/
+	box-shadow: 0.4em 0.4em 5px rgba(0, 0, 0, 0.5);
+  }
+	  
+  .rectangle text{
+	color: #ffffff;
+	text-align: left;
+	padding: 20px;
+	/*line-height: 50;*/
+  }
+	  
+	   
+	
+	  
+  /*body {
+	background: #e8e9ba;
+	display: grid;
+	gap: 40px;
+	height: 100vh;
+	margin: 0;
+	grid-auto-flow: column;
+	place-content: center;
+  }*/
+
+
+
+
+  /*Direct2*/
+  .containerrr{
+    position: relative;
+    display: inline-block;
+    
+}
+  
+.containerrr img{
+    width: 400px;
+    height: 275px;
+    /*box-shadow: 0 0 5px 2px;*/
+    margin-left: 0px;
+    margin-bottom: -4px;
+}
+  
+  
+  
+.Directionsss-header {
+    /*background-color: #282c34;*/
+    min-height: 200vh; 
+    flex-direction: column;
+    /*font-size: calc(10px + 2vmin);*/
+    color: #FFFFFF; /*изменен цвет текста */
+    background: linear-gradient(#CB2D6F,#14a098,#0F292F); 
+    
+     
+}
+
+.rectangle2{
+    /*width: 70%;
+    height: 50px;*/
+    /*border:1px solid;*/
+    width:500px;
+    height:auto;
+    margin:auto;
+    background: #CB2D6F;
+    /*box-shadow: 0 0 5px;*/
+    box-shadow: 0.4em 0.4em 5px rgba(0, 0, 0, 0.5);
+}
+    
+.rectangle2 text{
+    color: #ffffff;
+    text-align: left;
+    padding: 40px;
+    /*line-height: 50;*/
+}
+
+body{
+    position: relative;
+}
+  
+.box1{
+    position:absolute;
+    right: 950px;
+    /*left: 9em;
+    top:9em;*/
+    left:110px;
+    top:100px;
+  
+}
+  
+.box2{
+    /* This is the child */
+    position: absolute;
+    left: 600px;
+}
+
+.box7{
+    position:absolute;
+    top:770px;
+    left: 150px;
+}
+
+.boxs8{
+    position: absolute;
+    top:860px;
+    left: 150px;;
+}
+
+
+.box9{
+    position: absolute;
+    top:860px;
+    left: 750px;;
+}
+
+
+
+
+/*Direct3*/
+
+
+.box8{
+    position: absolute;
+    top:860px;
+    left: 150px;;
+}
+
+.box10{
+    position: absolute;
+    top:860px;
+    left: 750px;;
+}
+
+.Direct-header { 
+    /*background-color: #282c34;*/
+    min-height: 190vh; 
+    flex-direction: column;
+    /*font-size: calc(10px + 2vmin);*/
+    color: #FFFFFF; /*изменен цвет текста */
+    background: linear-gradient(#CB2D6F,#14a098,#0F292F); 
+    
+     
+}
+
+/*Direct4*/
+
+.box11{
+  
+    position:absolute;
+    top:1150px;
+    left:0px;
+    right: 0px;
+}
+
+.box12{
+  
+    position:absolute;
+    top:1490px;
+    left:0px;
+    right: 0px;
+}
+
+/*Direct5*/
+
+
+.box13{
+    position: absolute;
+    top: 260px;
+    right: 920px;
+    left: 90px;
+  
+}
+
+.box14{
+  
+    position:absolute;
+    top:1010px;
+    left:0px;
+    right: 0px;
+}
+  
+.box15{
+    
+    position:absolute;
+    top:1325px;
+    left:0px;
+    right: 0px;
+}
+
+.box16{
+    
+    position:absolute;
+    top:1615px;
+    left:0px;
+    right: 0px;
+}
+
+.Directions-headerrr { 
+    /*background-color: #282c34;*/
+    min-height: 280vh; 
+    flex-direction: column;
+    /*font-size: calc(10px + 2vmin);*/
+    color: #FFFFFF; /*изменен цвет текста */
+    background: linear-gradient(#CB2D6F,#14a098,#0F292F); 
+    
+     
+}
+
+
+
+/*Direct6*/
+
+
+.box17{
+  
+    position:absolute;
+    top:1130px;
+    left:200px;
+    
+}
+  
+.box18{
+    
+    position:absolute;
+    top:1130px;
+    left:800px;
+    
+}
+
+.Dir-header { 
+    /*background-color: #282c34;*/
+    min-height: 260vh; 
+    flex-direction: column;
+    /*font-size: calc(10px + 2vmin);*/
+    color: #FFFFFF; /*изменен цвет текста */
+    background: linear-gradient(#CB2D6F,#14a098,#0F292F); 
+    
+     
+}
+
+
+
+/*napravlenie1*/
+

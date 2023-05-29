@@ -1,0 +1,113 @@
+
+.Trainers-header { 
+  background-color: #282c34; 
+  min-height: 100vh; 
+  flex-direction: column; 
+  font-size: calc(10px + 2vmin); 
+  color: #FFFFFF; /* изменен цвет текста */
+  background-image: linear-gradient(#CB2D6F,#14a098,#0F292F); 
+   
+} 
+
+.container1{ 
+  left: 14rem; 
+  position: relative; 
+  display: inline-block; 
+  justify-content: top; 
+  align-items: top; 
+  flex-wrap: wrap; 
+  flex-direction: row; 
+  margin-top: 2rem; /* уменьшено расстояние между контейнером и заголовком */
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* добавлена тень */
+   
+} 
+.container1 .box{ 
+  position: relative; 
+
+  width: 18rem; 
+  height: 16rem; 
+  margin: 8rem; 
+  border-radius: 20px;
+  overflow: hidden; /* чтобы скрыть элементы, выходящие за границы блока */
+} 
+.container1 .box:hover .imgBox { 
+  transform: translate(0rem,0rem)scale(1.1); 
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); 
+} 
+.container1 .box:hover .content{ 
+  transform: translate(-2rem,18rem); 
+  box-shadow: 5px 5px 20px rgb(0, 0, 0); 
+} 
+.imgBox{ 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  z-index: 5; 
+  transition: all 0.5s ease-in-out; 
+   
+} 
+.imgBox img{ 
+  width: 18rem; 
+  height: 18rem; 
+  object-fit: cover; 
+  resize: both; 
+} 
+.content {
+  position: relative;
+  top: -15rem;
+  left: 2rem;
+  z-index: 10;
+  transition: all 0.5s ease-in-out;
+  color: #0f292f; /* изменен цвет текста */
+  padding: 1rem;
+  background: #38bcb5c1;
+}
+
+.Trainers-head {
+  text-align: center;
+  font-family: Garamond;
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.277);
+  position: relative;
+  border-top: 5px solid rgba(0, 0, 0, 0.186);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.168);
+  background-color: #f4f4f412;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* увеличиваем индекс для наложения на другие элементы */
+}
+
+.Trainers-head:before, .Trainers-head:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  z-index: -1
+}
+
+.Trainers-head:before {
+  left: 0;
+  transform: translateX(-100%);
+}
+
+
+/* добавляем объемность тексту */
+.Trainers-head span {
+  display: inline-block;
+  position: relative;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
